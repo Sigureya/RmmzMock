@@ -27,3 +27,9 @@ export const MockTintPicture: RpgTypes.Command_TintPicture = {
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, 0, false],
 };
+
+export const MockRotatePicture: RpgTypes.Command_RotatePicture = {
+  code: RpgTypes.ROTATE_PICTURE,
+  indent: 0,
+  parameters: [1, 0],
+};
