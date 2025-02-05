@@ -1,4 +1,4 @@
-const a = {
+const t = {
   code: 241,
   indent: 0,
   parameters: [
@@ -9,7 +9,7 @@ const a = {
       pitch: 100
     }
   ]
-}, n = {
+}, a = {
   code: 245,
   indent: 0,
   parameters: [
@@ -20,7 +20,7 @@ const a = {
       pitch: 100
     }
   ]
-}, t = {
+}, n = {
   code: 249,
   indent: 0,
   parameters: [
@@ -61,7 +61,7 @@ const a = {
       pitch: 100
     }
   ]
-}, m = {
+}, d = {
   code: 133,
   indent: 0,
   parameters: [
@@ -72,7 +72,7 @@ const a = {
       pitch: 100
     }
   ]
-}, p = {
+}, m = {
   code: 139,
   indent: 0,
   parameters: [
@@ -83,24 +83,28 @@ const a = {
       pitch: 100
     }
   ]
-}, d = {
+}, p = {
+  code: 251,
+  indent: 0,
+  parameters: []
+}, i = {
   name: "test",
   volume: 100,
   pan: 0,
   pitch: 100
-}, e = [255, 255, 255, 255], i = {
-  code: 223,
-  indent: 0,
-  parameters: [e, 0, !1]
-}, E = {
-  code: 224,
-  indent: 0,
-  parameters: [e, 0, !1]
-}, M = {
+}, e = [255, 255, 255, 255], E = {
   code: 323,
   indent: 0,
   parameters: [0, "vehicle", 0]
+}, M = {
+  code: 284,
+  indent: 0,
+  parameters: ["parallax", !1, !1, 0, 0]
 }, l = {
+  code: 283,
+  indent: 0,
+  parameters: ["battleback1", "battleback2"]
+}, k = {
   code: 231,
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
@@ -108,10 +112,6 @@ const a = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
-}, k = {
-  code: 284,
-  indent: 0,
-  parameters: ["parallax", !1, !1, 0, 0]
 }, g = {
   code: 232,
   indent: 0,
@@ -120,46 +120,71 @@ const a = {
   code: 235,
   indent: 0,
   parameters: [1]
+}, S = {
+  code: 234,
+  indent: 0,
+  parameters: [[255, 255, 255, 255], 0, 0, !1]
 }, u = {
   code: 101,
   indent: 0,
   parameters: ["face", 0, 0, 2, "speaker"]
-}, v = {
+}, f = {
   code: 401,
   indent: 0,
   parameters: ["message1"]
-}, y = {
+}, v = {
   code: 108,
   indent: 0,
   parameters: ["comment"]
-}, S = {
+}, P = {
   code: 408,
   indent: 0,
   parameters: ["comment"]
+}, y = {
+  code: 225,
+  indent: 0,
+  parameters: [5, 5, 5, !1]
+}, C = {
+  code: 224,
+  indent: 0,
+  parameters: [[255, 255, 255, 255], 0, !1]
+}, G = {
+  code: 230,
+  indent: 0,
+  parameters: [60]
+}, x = {
+  code: 223,
+  indent: 0,
+  parameters: [e, 0, !1]
 };
 export {
-  d as MockAudioParams,
+  i as MockAudioParams,
   h as MockChangeActorImages,
   r as MockChangeBattleBGM,
-  p as MockChangeDefeatME,
-  k as MockChangePallax,
-  M as MockChangeVehicleImage,
-  m as MockChangeVictoryME,
+  l as MockChangeBattleBackground,
+  m as MockChangeDefeatME,
+  M as MockChangePallax,
+  E as MockChangeVehicleImage,
+  d as MockChangeVictoryME,
   e as MockColorRGBA,
-  S as MockCommentBody,
+  P as MockCommentBody,
   B as MockErasePicture,
-  E as MockFlashScreen,
+  C as MockFlashScreen,
   g as MockMovePicture,
-  a as MockPlayBGM,
-  n as MockPlayBGS,
-  t as MockPlayME,
+  t as MockPlayBGM,
+  a as MockPlayBGS,
+  n as MockPlayME,
   c as MockPlaySE,
+  y as MockShakeScreen,
   u as MockShowMessage,
-  v as MockShowMessageBody,
-  l as MockShowPicture,
+  f as MockShowMessageBody,
+  k as MockShowPicture,
   o as MockStopBGM,
   s as MockStopBGS,
-  i as MockTintScreen,
-  y as MpockComment
+  p as MockStopSe,
+  S as MockTintPicture,
+  x as MockTintScreen,
+  G as MockWait,
+  v as MpockComment
 };
 //# sourceMappingURL=rmmzMock.es.js.map

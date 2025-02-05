@@ -11,12 +11,6 @@ export const MockChangeActorImages: RpgTypes.Command_ChangeActorImages = {
   parameters: [1, "character", 0, "face", 2, "svBattler"],
 };
 
-export const MockChangePallax: RpgTypes.Command_ChangeParallax = {
-  code: RpgTypes.CHANGE_PARALLAX,
-  indent: 0,
-  parameters: ["parallax", false, false, 0, 0],
-};
-
 export const MockMovePicture: RpgTypes.Command_MovePicture = {
   code: RpgTypes.MOVE_PICTURE,
   indent: 0,
@@ -26,4 +20,10 @@ export const MockErasePicture: RpgTypes.Command_ErasePicture = {
   code: RpgTypes.ERASE_PICTURE,
   indent: 0,
   parameters: [1],
+};
+
+export const MockTintPicture: RpgTypes.Command_TintPicture = {
+  code: RpgTypes.TINT_PICTURE,
+  indent: 0,
+  parameters: [[255, 255, 255, 255], 0, 0, false],
 };

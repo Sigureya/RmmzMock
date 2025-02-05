@@ -1,20 +1,20 @@
 import * as RpgTypes from "@sigureya/rpgtypes";
-import { MockColorRGBA } from "../params";
-
-export const MockTintScreen: RpgTypes.Command_TintScreen = {
-  code: RpgTypes.TINT_SCREEN,
-  indent: 0,
-  parameters: [MockColorRGBA, 0, false],
-};
-
-export const MockFlashScreen: RpgTypes.Command_FlashScreen = {
-  code: RpgTypes.FLASH_SCREEN,
-  indent: 0,
-  parameters: [MockColorRGBA, 0, false],
-};
 
 export const MockChangeVehicleImage: RpgTypes.Command_ChangeVehicleImage = {
   code: RpgTypes.CHANGE_VEHICLE_IMAGE,
   indent: 0,
   parameters: [0, "vehicle", 0],
 };
+
+export const MockChangePallax: RpgTypes.Command_ChangeParallax = {
+  code: RpgTypes.CHANGE_PARALLAX,
+  indent: 0,
+  parameters: ["parallax", false, false, 0, 0],
+};
+
+export const MockChangeBattleBackground: RpgTypes.Command_ChangeBattleBackground =
+  {
+    code: RpgTypes.CHANGE_BATTLE_BACKGROUND,
+    indent: 0,
+    parameters: ["battleback1", "battleback2"],
+  };
