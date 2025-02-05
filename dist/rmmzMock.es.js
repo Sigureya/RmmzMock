@@ -20,7 +20,7 @@ const t = {
       pitch: 100
     }
   ]
-}, n = {
+}, c = {
   code: 249,
   indent: 0,
   parameters: [
@@ -31,7 +31,7 @@ const t = {
       pitch: 100
     }
   ]
-}, c = {
+}, n = {
   code: 250,
   indent: 0,
   parameters: [
@@ -87,36 +87,40 @@ const t = {
   code: 251,
   indent: 0,
   parameters: []
+}, E = {
+  code: 242,
+  indent: 0,
+  parameters: [0]
 }, i = {
   name: "test",
   volume: 100,
   pan: 0,
   pitch: 100
-}, e = [255, 255, 255, 255], E = {
+}, e = [255, 255, 255, 255], M = {
   code: 323,
   indent: 0,
   parameters: [0, "vehicle", 0]
-}, M = {
+}, l = {
   code: 284,
   indent: 0,
   parameters: ["parallax", !1, !1, 0, 0]
-}, l = {
+}, k = {
   code: 283,
   indent: 0,
   parameters: ["battleback1", "battleback2"]
-}, k = {
+}, h = {
   code: 231,
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
-}, h = {
+}, u = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
-}, g = {
+}, B = {
   code: 232,
   indent: 0,
   parameters: [1, 0, 0, 0, 0, 0, 255, 0, !1, 0]
-}, B = {
+}, g = {
   code: 235,
   indent: 0,
   parameters: [1]
@@ -124,67 +128,83 @@ const t = {
   code: 234,
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, 0, !1]
-}, u = {
+}, f = {
+  code: 233,
+  indent: 0,
+  parameters: [1, 0]
+}, P = {
   code: 101,
   indent: 0,
   parameters: ["face", 0, 0, 2, "speaker"]
-}, f = {
+}, v = {
   code: 401,
   indent: 0,
   parameters: ["message1"]
-}, v = {
+}, G = {
   code: 108,
   indent: 0,
   parameters: ["comment"]
-}, P = {
+}, y = {
   code: 408,
   indent: 0,
   parameters: ["comment"]
-}, y = {
+}, C = {
   code: 225,
   indent: 0,
   parameters: [5, 5, 5, !1]
-}, C = {
+}, x = {
   code: 224,
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, !1]
-}, G = {
+}, A = {
   code: 230,
   indent: 0,
   parameters: [60]
-}, x = {
+}, L = {
   code: 223,
   indent: 0,
   parameters: [e, 0, !1]
+}, b = {
+  code: 353,
+  indent: 0,
+  parameters: []
+}, w = {
+  code: 301,
+  indent: 0,
+  parameters: [0, 0, !1, !1]
 };
 export {
   i as MockAudioParams,
-  h as MockChangeActorImages,
+  w as MockBattleProcessing,
+  u as MockChangeActorImages,
   r as MockChangeBattleBGM,
-  l as MockChangeBattleBackground,
+  k as MockChangeBattleBackground,
   m as MockChangeDefeatME,
-  M as MockChangePallax,
-  E as MockChangeVehicleImage,
+  l as MockChangePallax,
+  M as MockChangeVehicleImage,
   d as MockChangeVictoryME,
   e as MockColorRGBA,
-  P as MockCommentBody,
-  B as MockErasePicture,
-  C as MockFlashScreen,
-  g as MockMovePicture,
+  y as MockCommentBody,
+  g as MockErasePicture,
+  E as MockFadeOutBGM,
+  x as MockFlashScreen,
+  b as MockGameOver,
+  B as MockMovePicture,
   t as MockPlayBGM,
   a as MockPlayBGS,
-  n as MockPlayME,
-  c as MockPlaySE,
-  y as MockShakeScreen,
-  u as MockShowMessage,
-  f as MockShowMessageBody,
-  k as MockShowPicture,
+  c as MockPlayME,
+  n as MockPlaySE,
+  f as MockRotatePicture,
+  C as MockShakeScreen,
+  P as MockShowMessage,
+  v as MockShowMessageBody,
+  h as MockShowPicture,
   o as MockStopBGM,
   s as MockStopBGS,
-  p as MockStopSe,
+  p as MockStopSE,
   S as MockTintPicture,
-  x as MockTintScreen,
-  G as MockWait,
-  v as MpockComment
+  L as MockTintScreen,
+  A as MockWait,
+  G as MpockComment
 };
 //# sourceMappingURL=rmmzMock.es.js.map

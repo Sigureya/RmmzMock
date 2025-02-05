@@ -102,8 +102,13 @@ export const MockChangeDefeatME: RpgTypes.Command_ChangeDefeatME = {
   ],
 };
 
-export const MockStopSe: RpgTypes.Command_StopSE = {
+export const MockStopSE: RpgTypes.Command_StopSE = {
   code: RpgTypes.STOP_SE,
   indent: 0,
   parameters: [],
+};
+export const MockFadeOutBGM: RpgTypes.Command_FadeOutBGM = {
+  code: RpgTypes.FADEOUT_BGM,
+  indent: 0,
+  parameters: [0],
 };
