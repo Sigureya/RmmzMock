@@ -1,4 +1,4 @@
-const a = {
+const t = {
   code: 241,
   indent: 0,
   parameters: [
@@ -9,7 +9,7 @@ const a = {
       pitch: 100
     }
   ]
-}, t = {
+}, a = {
   code: 245,
   indent: 0,
   parameters: [
@@ -20,7 +20,7 @@ const a = {
       pitch: 100
     }
   ]
-}, n = {
+}, o = {
   code: 249,
   indent: 0,
   parameters: [
@@ -31,7 +31,7 @@ const a = {
       pitch: 100
     }
   ]
-}, o = {
+}, n = {
   code: 250,
   indent: 0,
   parameters: [
@@ -46,11 +46,11 @@ const a = {
   code: 242,
   indent: 0,
   parameters: [0]
-}, r = {
+}, s = {
   code: 246,
   indent: 0,
   parameters: [0]
-}, s = {
+}, r = {
   code: 132,
   indent: 0,
   parameters: [
@@ -61,7 +61,7 @@ const a = {
       pitch: 100
     }
   ]
-}, p = {
+}, m = {
   code: 133,
   indent: 0,
   parameters: [
@@ -72,52 +72,72 @@ const a = {
       pitch: 100
     }
   ]
-}, m = {
+}, p = {
   name: "test",
   volume: 100,
   pan: 0,
   pitch: 100
-}, e = [255, 255, 255, 255], E = {
+}, e = [255, 255, 255, 255], d = {
   code: 231,
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
-}, d = {
+}, i = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
-}, i = {
+}, M = {
   code: 284,
   indent: 0,
   parameters: ["parallax", !1, !1, 0, 0]
-}, l = {
+}, E = {
   code: 232,
   indent: 0,
   parameters: [1, 0, 0, 0, 0, 0, 255, 0, !1, 0]
-}, M = {
+}, l = {
   code: 235,
   indent: 0,
   parameters: [1]
-}, h = {
+}, k = {
   code: 223,
   indent: 0,
   parameters: [e, 0, !1]
+}, h = {
+  code: 101,
+  indent: 0,
+  parameters: ["face", 0, 0, 2, "speaker"]
+}, B = {
+  code: 401,
+  indent: 0,
+  parameters: ["message1"]
+}, u = {
+  code: 108,
+  indent: 0,
+  parameters: ["comment"]
+}, y = {
+  code: 408,
+  indent: 0,
+  parameters: ["comment"]
 };
 export {
-  m as MockAudioParams,
-  d as MockChangeActorImages,
-  s as MockChangeBattleBGM,
-  i as MockChangePallax,
-  p as MockChangeVictoryME,
+  p as MockAudioParams,
+  i as MockChangeActorImages,
+  r as MockChangeBattleBGM,
+  M as MockChangePallax,
+  m as MockChangeVictoryME,
   e as MockColorRGBA,
-  M as MockErasePicture,
-  l as MockMovePicture,
-  a as MockPlayBGM,
-  t as MockPlayBGS,
-  n as MockPlayME,
-  o as MockPlaySE,
-  E as MockShowPicture,
+  y as MockCommentBody,
+  l as MockErasePicture,
+  E as MockMovePicture,
+  t as MockPlayBGM,
+  a as MockPlayBGS,
+  o as MockPlayME,
+  n as MockPlaySE,
+  h as MockShowMessage,
+  B as MockShowMessageBody,
+  d as MockShowPicture,
   c as MockStopBGM,
-  r as MockStopBGS,
-  h as MockTintScreen
+  s as MockStopBGS,
+  k as MockTintScreen,
+  u as MpockComment
 };
 //# sourceMappingURL=rmmzMock.es.js.map
