@@ -120,4 +120,4 @@ export {
   r as MockStopBGS,
   h as MockTintScreen
 };
-//# sourceMappingURL=rpgtypes.es.js.map
+//# sourceMappingURL=rmmzMock.es.js.map

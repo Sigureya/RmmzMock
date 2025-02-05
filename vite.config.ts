@@ -6,7 +6,7 @@ export default defineConfig({
     lib: {
       entry: "./src/index.ts", // ライブラリのエントリポイント
       name: "RpgTypes", // ライブラリの名前（UMD形式用）
-      fileName: (format) => `rpgtypes.${format}.js`, // 出力ファイル名
+      fileName: (format) => `rmmzMock.${format}.js`, // 出力ファイル名
       formats: ["es", "cjs", "umd"], // 出力形式
     },
     rollupOptions: {
