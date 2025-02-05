@@ -89,3 +89,15 @@ export const MockChangeVictoryME: RpgTypes.Command_ChangeVictoryME = {
     },
   ],
 };
+export const MockChangeDefeatME: RpgTypes.Command_ChangeDefeatME = {
+  code: RpgTypes.CHANGE_DEFEAT_ME,
+  indent: 0,
+  parameters: [
+    {
+      name: "changeDefeatME",
+      volume: 100,
+      pan: 0,
+      pitch: 100,
+    },
+  ],
+};
