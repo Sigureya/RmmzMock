@@ -101,3 +101,9 @@ export const MockChangeDefeatME: RpgTypes.Command_ChangeDefeatME = {
     },
   ],
 };
+
+export const MockStopSe: RpgTypes.Command_StopSE = {
+  code: RpgTypes.STOP_SE,
+  indent: 0,
+  parameters: [],
+};
