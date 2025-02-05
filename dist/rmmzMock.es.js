@@ -87,11 +87,11 @@ const t = {
   code: 251,
   indent: 0,
   parameters: []
-}, E = {
+}, i = {
   code: 242,
   indent: 0,
   parameters: [0]
-}, i = {
+}, E = {
   name: "test",
   volume: 100,
   pan: 0,
@@ -100,11 +100,11 @@ const t = {
   code: 323,
   indent: 0,
   parameters: [0, "vehicle", 0]
-}, l = {
+}, k = {
   code: 284,
   indent: 0,
   parameters: ["parallax", !1, !1, 0, 0]
-}, k = {
+}, l = {
   code: 283,
   indent: 0,
   parameters: ["battleback1", "battleback2"]
@@ -112,15 +112,15 @@ const t = {
   code: 231,
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
-}, u = {
+}, g = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
-}, B = {
+}, u = {
   code: 232,
   indent: 0,
   parameters: [1, 0, 0, 0, 0, 0, 255, 0, !1, 0]
-}, g = {
+}, B = {
   code: 235,
   indent: 0,
   parameters: [1]
@@ -132,79 +132,94 @@ const t = {
   code: 233,
   indent: 0,
   parameters: [1, 0]
-}, P = {
+}, v = {
   code: 101,
   indent: 0,
   parameters: ["face", 0, 0, 2, "speaker"]
-}, v = {
+}, C = {
   code: 401,
   indent: 0,
   parameters: ["message1"]
-}, G = {
+}, P = {
   code: 108,
   indent: 0,
   parameters: ["comment"]
-}, y = {
+}, G = {
   code: 408,
   indent: 0,
   parameters: ["comment"]
-}, C = {
+}, y = {
   code: 225,
   indent: 0,
   parameters: [5, 5, 5, !1]
-}, x = {
+}, A = {
   code: 224,
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, !1]
-}, A = {
+}, x = {
   code: 230,
   indent: 0,
   parameters: [60]
-}, L = {
+}, F = {
   code: 223,
   indent: 0,
   parameters: [e, 0, !1]
-}, b = {
+}, L = {
   code: 353,
   indent: 0,
   parameters: []
-}, w = {
+}, b = {
   code: 301,
   indent: 0,
   parameters: [0, 0, !1, !1]
+}, w = {
+  code: 135,
+  indent: 0,
+  parameters: [0]
+}, D = {
+  code: 134,
+  indent: 0,
+  parameters: [0]
+}, I = {
+  code: 137,
+  indent: 0,
+  parameters: [0]
 };
 export {
-  i as MockAudioParams,
-  w as MockBattleProcessing,
-  u as MockChangeActorImages,
+  E as MockAudioParams,
+  b as MockBattleProcessing,
+  g as MockChangeActorImages,
   r as MockChangeBattleBGM,
-  k as MockChangeBattleBackground,
+  l as MockChangeBattleBackground,
   m as MockChangeDefeatME,
-  l as MockChangePallax,
+  I as MockChangeFormationAccess,
+  w as MockChangeMenuAccess,
+  k as MockChangePallax,
+  D as MockChangeSaveAccess,
   M as MockChangeVehicleImage,
   d as MockChangeVictoryME,
   e as MockColorRGBA,
-  y as MockCommentBody,
-  g as MockErasePicture,
-  E as MockFadeOutBGM,
-  x as MockFlashScreen,
-  b as MockGameOver,
-  B as MockMovePicture,
+  G as MockCommentBody,
+  B as MockErasePicture,
+  i as MockFadeOutBGM,
+  A as MockFlashScreen,
+  L as MockGameOver,
+  u as MockMovePicture,
   t as MockPlayBGM,
   a as MockPlayBGS,
   c as MockPlayME,
   n as MockPlaySE,
   f as MockRotatePicture,
-  C as MockShakeScreen,
-  P as MockShowMessage,
-  v as MockShowMessageBody,
+  y as MockShakeScreen,
+  v as MockShowMessage,
+  C as MockShowMessageBody,
   h as MockShowPicture,
   o as MockStopBGM,
   s as MockStopBGS,
   p as MockStopSE,
   S as MockTintPicture,
-  L as MockTintScreen,
-  A as MockWait,
-  G as MpockComment
+  F as MockTintScreen,
+  x as MockWait,
+  P as MpockComment
 };
 //# sourceMappingURL=rmmzMock.es.js.map
