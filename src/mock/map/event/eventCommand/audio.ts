@@ -57,3 +57,35 @@ export const MockStopBGM: RpgTypes.Command_FadeOutBGM = {
   indent: 0,
   parameters: [0],
 };
+
+export const MockStopBGS: RpgTypes.Command_FadeOutBGS = {
+  code: RpgTypes.FADEOUT_BGS,
+  indent: 0,
+  parameters: [0],
+};
+
+export const MockChangeBattleBGM: RpgTypes.Command_ChangeBattleBGM = {
+  code: RpgTypes.CHANGE_BATTLE_BGM,
+  indent: 0,
+  parameters: [
+    {
+      name: "changeBattleBGM",
+      volume: 100,
+      pan: 0,
+      pitch: 100,
+    },
+  ],
+};
+
+export const MockChangeVictoryME: RpgTypes.Command_ChangeVictoryME = {
+  code: RpgTypes.CHANGE_VICTORY_ME,
+  indent: 0,
+  parameters: [
+    {
+      name: "changeVictoryME",
+      volume: 100,
+      pan: 0,
+      pitch: 100,
+    },
+  ],
+};
