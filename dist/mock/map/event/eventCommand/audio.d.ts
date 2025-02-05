@@ -7,3 +7,4 @@ export declare const MockStopBGM: RpgTypes.Command_FadeOutBGM;
 export declare const MockStopBGS: RpgTypes.Command_FadeOutBGS;
 export declare const MockChangeBattleBGM: RpgTypes.Command_ChangeBattleBGM;
 export declare const MockChangeVictoryME: RpgTypes.Command_ChangeVictoryME;
+export declare const MockChangeDefeatME: RpgTypes.Command_ChangeDefeatME;
