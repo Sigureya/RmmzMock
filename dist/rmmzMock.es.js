@@ -109,13 +109,13 @@ const t = {
   indent: 0,
   parameters: ["battleback1", "battleback2"]
 }, h = {
-  code: 231,
-  indent: 0,
-  parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
-}, g = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
+}, g = {
+  code: 231,
+  indent: 0,
+  parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
 }, u = {
   code: 232,
   indent: 0,
@@ -188,13 +188,13 @@ const t = {
 export {
   E as MockAudioParams,
   b as MockBattleProcessing,
-  g as MockChangeActorImages,
+  h as MockChangeActorImages,
   r as MockChangeBattleBGM,
   l as MockChangeBattleBackground,
   m as MockChangeDefeatME,
   I as MockChangeFormationAccess,
   w as MockChangeMenuAccess,
-  k as MockChangePallax,
+  k as MockChangeParallax,
   D as MockChangeSaveAccess,
   M as MockChangeVehicleImage,
   d as MockChangeVictoryME,
@@ -213,7 +213,7 @@ export {
   y as MockShakeScreen,
   v as MockShowMessage,
   C as MockShowMessageBody,
-  h as MockShowPicture,
+  g as MockShowPicture,
   o as MockStopBGM,
   s as MockStopBGS,
   p as MockStopSE,

@@ -5,11 +5,6 @@ export const MockShowPicture: RpgTypes.Command_ShowPicture = {
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0],
 };
-export const MockChangeActorImages: RpgTypes.Command_ChangeActorImages = {
-  code: RpgTypes.CHANGE_ACTOR_IMAGES,
-  indent: 0,
-  parameters: [1, "character", 0, "face", 2, "svBattler"],
-};
 
 export const MockMovePicture: RpgTypes.Command_MovePicture = {
   code: RpgTypes.MOVE_PICTURE,
