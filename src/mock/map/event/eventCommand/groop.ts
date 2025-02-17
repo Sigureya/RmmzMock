@@ -11,7 +11,7 @@ export const MockShowMessageBody: RpgTypes.Command_ShowMessageBody = {
   parameters: ["message1"],
 };
 
-export const MpockComment: RpgTypes.Command_Comment = {
+export const MockComment: RpgTypes.Command_Comment = {
   code: RpgTypes.COMMENT,
   indent: 0,
   parameters: ["comment"],

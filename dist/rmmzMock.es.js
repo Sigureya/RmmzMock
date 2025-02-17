@@ -199,6 +199,7 @@ export {
   M as MockChangeVehicleImage,
   d as MockChangeVictoryME,
   e as MockColorRGBA,
+  P as MockComment,
   G as MockCommentBody,
   B as MockErasePicture,
   i as MockFadeOutBGM,
@@ -219,7 +220,6 @@ export {
   p as MockStopSE,
   S as MockTintPicture,
   F as MockTintScreen,
-  x as MockWait,
-  P as MpockComment
+  x as MockWait
 };
 //# sourceMappingURL=rmmzMock.es.js.map
