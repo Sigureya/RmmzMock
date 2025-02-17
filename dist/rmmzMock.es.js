@@ -9,7 +9,7 @@ const t = {
       pitch: 100
     }
   ]
-}, a = {
+}, c = {
   code: 245,
   indent: 0,
   parameters: [
@@ -20,7 +20,7 @@ const t = {
       pitch: 100
     }
   ]
-}, c = {
+}, a = {
   code: 249,
   indent: 0,
   parameters: [
@@ -100,11 +100,11 @@ const t = {
   code: 323,
   indent: 0,
   parameters: [0, "vehicle", 0]
-}, k = {
+}, l = {
   code: 284,
   indent: 0,
   parameters: ["parallax", !1, !1, 0, 0]
-}, l = {
+}, k = {
   code: 283,
   indent: 0,
   parameters: ["battleback1", "battleback2"]
@@ -112,51 +112,67 @@ const t = {
   code: 322,
   indent: 0,
   parameters: [1, "character", 0, "face", 2, "svBattler"]
-}, g = {
+}, S = {
   code: 231,
   indent: 0,
   parameters: [1, "showPicture", 0, 0, 0, 0, 255, 0, 0]
-}, u = {
+}, g = {
   code: 232,
   indent: 0,
   parameters: [1, 0, 0, 0, 0, 0, 255, 0, !1, 0]
-}, B = {
+}, u = {
   code: 235,
   indent: 0,
   parameters: [1]
-}, S = {
+}, B = {
   code: 234,
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, 0, !1]
-}, f = {
+}, v = {
   code: 233,
   indent: 0,
   parameters: [1, 0]
-}, v = {
+}, f = {
   code: 101,
   indent: 0,
   parameters: ["face", 0, 0, 2, "speaker"]
-}, C = {
+}, y = {
   code: 401,
   indent: 0,
   parameters: ["message1"]
-}, P = {
+}, C = {
   code: 108,
   indent: 0,
   parameters: ["comment"]
-}, G = {
+}, P = {
   code: 408,
   indent: 0,
   parameters: ["comment"]
-}, y = {
+}, G = {
+  code: 105,
+  indent: 0,
+  parameters: [0, !1]
+}, x = {
+  code: 405,
+  indent: 0,
+  parameters: ["scrollText"]
+}, A = {
+  code: 355,
+  indent: 0,
+  parameters: ["script head"]
+}, T = {
+  code: 655,
+  indent: 0,
+  parameters: ["script body"]
+}, w = {
   code: 225,
   indent: 0,
   parameters: [5, 5, 5, !1]
-}, A = {
+}, I = {
   code: 224,
   indent: 0,
   parameters: [[255, 255, 255, 255], 0, !1]
-}, x = {
+}, b = {
   code: 230,
   indent: 0,
   parameters: [60]
@@ -168,58 +184,62 @@ const t = {
   code: 353,
   indent: 0,
   parameters: []
-}, b = {
+}, D = {
   code: 301,
   indent: 0,
   parameters: [0, 0, !1, !1]
-}, w = {
+}, R = {
   code: 135,
   indent: 0,
   parameters: [0]
-}, D = {
+}, H = {
   code: 134,
   indent: 0,
   parameters: [0]
-}, I = {
+}, V = {
   code: 137,
   indent: 0,
   parameters: [0]
 };
 export {
   E as MockAudioParams,
-  b as MockBattleProcessing,
+  D as MockBattleProcessing,
   h as MockChangeActorImages,
   r as MockChangeBattleBGM,
-  l as MockChangeBattleBackground,
+  k as MockChangeBattleBackground,
   m as MockChangeDefeatME,
-  I as MockChangeFormationAccess,
-  w as MockChangeMenuAccess,
-  k as MockChangeParallax,
-  D as MockChangeSaveAccess,
+  V as MockChangeFormationAccess,
+  R as MockChangeMenuAccess,
+  l as MockChangeParallax,
+  H as MockChangeSaveAccess,
   M as MockChangeVehicleImage,
   d as MockChangeVictoryME,
   e as MockColorRGBA,
-  P as MockComment,
-  G as MockCommentBody,
-  B as MockErasePicture,
+  C as MockComment,
+  P as MockCommentBody,
+  u as MockErasePicture,
   i as MockFadeOutBGM,
-  A as MockFlashScreen,
+  I as MockFlashScreen,
   L as MockGameOver,
-  u as MockMovePicture,
+  g as MockMovePicture,
   t as MockPlayBGM,
-  a as MockPlayBGS,
-  c as MockPlayME,
+  c as MockPlayBGS,
+  a as MockPlayME,
   n as MockPlaySE,
-  f as MockRotatePicture,
-  y as MockShakeScreen,
-  v as MockShowMessage,
-  C as MockShowMessageBody,
-  g as MockShowPicture,
+  v as MockRotatePicture,
+  T as MockScriptEvalBody,
+  A as MockScriptEvalHead,
+  w as MockShakeScreen,
+  f as MockShowMessage,
+  y as MockShowMessageBody,
+  S as MockShowPicture,
+  G as MockShowScrollText,
+  x as MockShowScrollTextBody,
   o as MockStopBGM,
   s as MockStopBGS,
   p as MockStopSE,
-  S as MockTintPicture,
+  B as MockTintPicture,
   F as MockTintScreen,
-  x as MockWait
+  b as MockWait
 };
 //# sourceMappingURL=rmmzMock.es.js.map
